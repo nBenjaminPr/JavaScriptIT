@@ -71,3 +71,22 @@ switch (estadoCivil) {
 }
 
 console.log("Su estado civil es ", tipoDeEstado); 
+
+
+let color = "rojo"
+
+switch (color) {
+    case "rojo":
+        console.log("el color es primario");
+        break;
+        case "azul":
+        console.log("el color es primario");
+        break;
+        case "amarillo":
+        console.log("el color es primario");
+        break;
+
+    default:
+        console.log("el color no es primario");
+        break;
+}
